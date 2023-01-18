@@ -1,0 +1,15 @@
+{
+    "name": "hp/form_plugin",
+    "type": "plugin",
+    "autoload": {
+        "psr-4": {
+            "Hp\\FormPlugin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Parsa"
+        }
+    ],
+    "require": {}
+}
