@@ -134,8 +134,7 @@ const Settings = () => {
     value: firstname,
     onChange: e => {
       SetFirstName(e.target.value);
-    },
-    className: "firstname"
+    }
   }))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("tr", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("th", {
     scope: "row"
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("label", {
@@ -146,8 +145,7 @@ const Settings = () => {
     value: lastname,
     onChange: e => {
       SetLastName(e.target.value);
-    },
-    className: "lastname"
+    }
   }))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("tr", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("th", {
     scope: "row"
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("label", {
@@ -158,8 +156,7 @@ const Settings = () => {
     value: email,
     onChange: e => {
       SetEmail(e.target.value);
-    },
-    className: "email"
+    }
   }))))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
     className: ""
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("button", {

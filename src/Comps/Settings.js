@@ -37,7 +37,7 @@ const Settings = () => {
                                 <label htmlFor="firstname">Firstname</label>
                             </th>
                             <td>
-                                <input id="firstname" name="firstname" value={ firstname }  onChange={ (e) => { SetFirstName( e.target.value ) } } className="firstname" />
+                                <input id="firstname" name="firstname" value={firstname}  onChange={ (e) => { SetFirstName( e.target.value ) } } />
                             </td>
                         </tr>
                         <tr>
@@ -45,7 +45,7 @@ const Settings = () => {
                                 <label htmlFor="lastname">Lastname</label>
                             </th>
                             <td>
-                                <input id="lastname" name="lastname" value={ lastname } onChange={ (e) => { SetLastName( e.target.value ) } } className="lastname" />
+                                <input id="lastname" name="lastname" value={lastname}  onChange={ (e) => { SetLastName( e.target.value ) } }  />
                             </td>
                         </tr>
                         <tr>
@@ -53,7 +53,7 @@ const Settings = () => {
                                 <label htmlFor="email">Email</label>
                             </th>
                             <td>
-                                <input id="email" name="email" value={ email } onChange={ (e) => { SetEmail( e.target.value ) } } className="email" />
+                                <input id="email" name="email" value={email}  onChange={ (e) => { SetEmail( e.target.value ) } } />
                             </td>
                         </tr>
                     </tbody>
